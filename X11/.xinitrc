@@ -1,6 +1,7 @@
 xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" "1"
 xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Natural Scrolling Enabled" "1"
 
+xset r rate 300 50
 xrdb -merge $HOME/.config/X11/.Xresources
 urxvtd -o -q -f
 udiskie &
